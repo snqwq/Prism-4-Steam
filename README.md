@@ -1,4 +1,4 @@
-![Prism 4 Steam](./assets/full_logo_light.png)
+![Prism 4 Steam](./assets/full_logo_light2.png)
 
 Easy PrismLauncher and Steam compatibility
 
