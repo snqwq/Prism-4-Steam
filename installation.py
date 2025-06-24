@@ -1,11 +1,18 @@
 import os
+import pathlib
 import subprocess
 import config
-from sys import platform
+import platform
+import pathlib
 
 prism_installed = False
 
-print(platform)
-if platform == "win32":
-    prism_installed = os.path.exists(config.WINDOWS_PATH)
+
+if platform.system() == "Windows":
+    if pathlib.Path(config.WINDOWS_PATH).exists():
+        prism_installed = True
+    elif pathlib.Path(config.SCOOP_PATH).exists():
+        prism_installed = True
+    else:
+        print("cannot find prism install")
     print(f"is prism installed? {prism_installed}")
