@@ -5,7 +5,9 @@
 ![Black Badge](https://img.shields.io/badge/code%20style-black-000000?style=for-the-badge)
 ![Lover Badge](https://img.shields.io/badge/I%20%E2%9D%A4%EF%B8%8F-Badges-%23de3449?style=for-the-badge)
 
-Easy PrismLauncher and Steam compatibility
+*Easy* PrismLauncher and Steam compatibility
+
+Inspired by [EmuDeck](https://www.emudeck.com/) and [SRM](https://github.com/SteamGridDB/steam-rom-manager)
 
 > [!NOTE]
 > All names, logos, etc are the property of their respective owners
