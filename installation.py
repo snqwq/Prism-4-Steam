@@ -7,7 +7,7 @@ import pathlib
 
 prism_installed = False
 
-
+# system checking
 if platform.system() == "Windows":
     if pathlib.Path(config.WINDOWS_PATH).exists():
         prism_installed = True
@@ -16,3 +16,7 @@ if platform.system() == "Windows":
     else:
         print("cannot find prism install")
     print(f"is prism installed? {prism_installed}")
+elif platform.system() == "Linux":  # TODO add linux support
+    print("not yet supported because im lazy")
+else:
+    print("operating system unknown, or we dont support it yet")
